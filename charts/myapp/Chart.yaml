@@ -26,4 +26,4 @@ appVersion: "0.1.0"
 dependencies:
   - name: myapp
     version: 0.1.0
-    repository: https://github.com/hassan308/IAC.git
+    repository: https://github.com/hassan308/IAC/tree/main/charts/myapp
