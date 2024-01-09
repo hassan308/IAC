@@ -5,8 +5,9 @@ metadata:
 spec:
   project: default
   source:
+    chart: myapp
     repoURL: 'https://github.com/hassan308/IAC.git'
-    path: charts/java-app
+    path: charts/myapp
     targetRevision: HEAD
     helm:
       valueFiles:
