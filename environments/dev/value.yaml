@@ -1,6 +1,6 @@
 
 
 image:
-  repository:  localhost:5000/demo-app
+  repository:  localhost:5000/demo-app111
   pullPolicy: IfNotPresent
-  tag: "latest"  # En specifik version istället för "latest"
+  tag: "lol"  # En specifik version istället för "latest"
