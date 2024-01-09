@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: java-app-dev
+  name: hello-wworld
 spec:
   project: default
   source:
-    chart: myapp
+    chart: hello-wworld
     repoURL: 'https://github.com/hassan308/IAC.git'
     path: charts/myapp
     targetRevision: HEAD
