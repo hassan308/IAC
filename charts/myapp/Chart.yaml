@@ -26,4 +26,4 @@ appVersion: "0.1.0"
 dependencies:
   - name: hello-wworld
     version: 0.1.0
-    repository: https://github.com/hassan308/IAC
+    repository: https://github.com/hassan308/IAC.git
