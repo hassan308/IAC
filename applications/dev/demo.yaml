@@ -10,7 +10,6 @@ spec:
     targetRevision: HEAD
     helm:
       valueFiles:
-        - values.yaml  # Standard värden fil som finns i chart katalogen
         - environments/dev/values.yaml  # Miljöspecifik values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
