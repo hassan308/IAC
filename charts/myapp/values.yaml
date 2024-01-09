@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: localhost:5000/demo-app111  # Uppdatera med din image's repository
+  repository: localhost:5000/demo-app  # Uppdatera med din image's repository
   pullPolicy: IfNotPresent
   tag: "latest"  # Specificera önskad tag, t.ex. "latest"
 
