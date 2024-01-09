@@ -1,0 +1,6 @@
+
+
+image:
+  repository:  localhost:5000/demo-apploool
+  pullPolicy: IfNotPresent
+  tag: "latest"  # En specifik version istället för "latest"
