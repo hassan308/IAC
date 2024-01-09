@@ -9,7 +9,9 @@ spec:
     path: charts/java-app
     targetRevision: HEAD
     helm:
-      valueFiles: environments/dev/values.yaml  # Miljöspecifik values.yaml
+      valueFiles:
+        - values.yaml  # Standard värden fil som finns i chart katalogen
+        - environments/dev/values.yaml  # Miljöspecifik values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: dev-namespace
