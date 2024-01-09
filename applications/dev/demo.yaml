@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
     helm:
       valueFiles:
-        - environments/dev/values.yaml  # Miljöspecifik values.yaml
+        - dev-values.yaml  # Miljöspecifik dev-values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: dev-namespace
